@@ -1,0 +1,27 @@
+{
+    "_version": "3.0.0",
+    "identification": {
+        "id": "tutorial2.newproducts",
+        "entityType": "businessapp",
+        "i18n": "i18n/i18n.properties"
+    },
+    "payload": {
+        "visualizations": {
+            
+            "customTile2-display": {
+                "vizType": "tutorial2.flphomepage",
+                "vizConfig": {
+                    "sap.app": {
+                        "title": "{{customTile2.title}}",
+                        "subTitle": "{{customTile2.subtitle}}"
+                    },
+                    "sap.flp": {
+                        "target": {
+                            "inboundId": "uimodule-display"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
